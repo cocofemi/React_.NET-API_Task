@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Table, Tag, Space } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
-import { userActions } from '../_actions';
+import { userActions } from '../actions';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 function HomePage() {
